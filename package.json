@@ -1,20 +1,20 @@
 {
-  "name": "meanr",
+  "name": "Shapes",
   "version": "0.0.0",
-  "description": "The MEAN Template",
+  "description": "A 3D exploration.",
   "engines": {
     "node": "0.10.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nss-cohort-2014-06-07/meanr"
+    "url": "https://github.com/zoeames/shapes"
   },
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Zoe Ames <zoeames@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/meanr/issues"
+    "url": "https://github.com/zoeames/shapes/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/meanr",
+  "homepage": "https://github.com/zoeames/shapes",
   "directories": {
     "test": "test"
   },
