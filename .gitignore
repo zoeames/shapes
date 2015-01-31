@@ -2,3 +2,4 @@ node_modules/
 public/
 setup.sh
 vendor/
+.idea/

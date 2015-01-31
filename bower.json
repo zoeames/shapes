@@ -1,11 +1,11 @@
 {
-  "name": "Frontend Template",
+  "name": "Shapes",
   "version": "0.0.0",
-  "homepage": "https://github.com/zoeames/frontend-template",
+  "homepage": "https://github.com/zoeames/shapes",
   "authors": [
     "Zoe Ames <zoeames@gmail.com>"
   ],
-  "description": "frontend template - angular, gulp",
+  "description": "a 3D shape exploration",
   "main": "html/index.html",
   "license": "MIT",
   "ignore": [

@@ -1,21 +1,21 @@
 {
-  "name": "frontend-template",
+  "name": "Shapes",
   "version": "1.0.0",
-  "description": "frontend template - angular, gulp",
+  "description": "A 3D shape exploration",
   "main": "html/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoeames/frontend-template"
+    "url": "https://github.com/zoeames/shapes"
   },
-  "author": "Mikey Badr",
+  "author": "Zoe Ames <zoeames@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoeames/frontend-template/issues"
+    "url": "https://github.com/zoeames/shapes/issues"
   },
-  "homepage": "https://github.com/zoeames/frontend-template",
+  "homepage": "https://github.com/zoeames/shapes",
   "dependencies": {
     "connect": "^3.3.2",
     "devicons": "^1.6.0",
