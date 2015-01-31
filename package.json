@@ -1,69 +1,39 @@
 {
-  "name": "Shapes",
-  "version": "0.0.0",
-  "description": "A 3D exploration.",
-  "engines": {
-    "node": "0.10.x"
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "description": "frontend template - angular, gulp",
+  "main": "html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoeames/shapes"
+    "url": "https://github.com/zoeames/frontend-template"
   },
-  "author": "Zoe Ames <zoeames@gmail.com>",
+  "author": "Mikey Badr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoeames/shapes/issues"
+    "url": "https://github.com/zoeames/frontend-template/issues"
   },
-  "homepage": "https://github.com/zoeames/shapes",
-  "directories": {
-    "test": "test"
-  },
-  "bin": {
-    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
-  },
-  "scripts": {
-    "start": "node server/index.js",
-    "postinstall": "grunt deploy",
-    "test": "mocha test --recursive -R spec --timeout 5000",
-    "syntax": "./node_modules/grunt-cli/bin/grunt build",
-    "coveralls": "mocha test --recursive -r blanket -R mocha-lcov-reporter | coveralls"
-  },
-  "config": {
-    "blanket": {
-      "pattern": "/server/"
-    }
-  },
+  "homepage": "https://github.com/zoeames/frontend-template",
   "dependencies": {
-    "async": "^0.9.0",
-    "bcrypt": "^0.8.1",
-    "blanket": "^1.1.6",
-    "body-parser": "^1.10.2",
-    "bower": "^1.3.12",
-    "chai": "^1.10.0",
-    "chalk": "^0.5.1",
-    "connect-redis": "^2.2.0",
-    "coveralls": "^2.11.2",
-    "express": "^4.11.1",
-    "express-method-override": "0.0.3",
-    "express-session": "^1.10.1",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-copy": "^0.7.0",
-    "grunt-contrib-jade": "^0.14.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-less": "^1.0.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-jscs": "^1.2.0",
-    "grunt-shell": "^1.1.1",
+    "connect": "^3.3.2",
+    "devicons": "^1.6.0",
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
+    "gulp-jade": "^0.9.0",
+    "gulp-jscs": "^1.2.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.2.2",
+    "gulp-util": "^3.0.1",
     "jshint-stylish": "^1.0.0",
-    "mocha": "^2.1.0",
-    "mocha-lcov-reporter": "0.0.1",
-    "mongodb": "^1.4.29",
-    "morgan": "^1.5.1",
-    "multiparty": "^4.1.1",
-    "request": "^2.51.0",
-    "supertest": "^0.15.0",
-    "underscore": "^1.7.0"
+    "morgan": "^1.4.1",
+    "serve-static": "^1.7.1"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "shelljs": "^0.3.0"
   }
 }

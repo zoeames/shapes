@@ -1,14 +1,28 @@
-doctype html
-html(ng-app='shapes', lang='en')
+html(ng-app='zoeames', lang='en')
   head
     meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    title MEANr Template
-    include views/master/stylesheets
+    meta(name='viewport', content='width=device-width')
+    link(rel='shortcut icon', href='favicon.ico', type='image/x-icon')
+    link(rel='icon', href='/favicon.ico', type='image/x-icon')
+    link(href='/css/normalize.css', rel='stylesheet')
+    link(href='/vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/css/main.css', rel='stylesheet')
+    link(href='/css/home.css', rel='stylesheet')
+    link(href='/css/navbar.css', rel='stylesheet')
+    link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
+    title Frontend Template
   body
-    div(ns-nav)
-    include views/master/body
-    include views/master/footer
-    include views/master/scripts
-
+    include nav
+    .container
+      .row
+        .col-xs-12
+          #container(ng-view)
+    
+    
+    script(src='/vendor/jquery/dist/jquery.js')
+    script(src='/vendor/angular/angular.js')
+    script(src='/vendor/angular-route/angular-route.js')
+    script(src='./index.js')
+    script(src='/vendor/bootstrap/dist/js/bootstrap.js')
+    script(src='/vendor/underscore/underscore-min.js')
+    script(src='/vendor/jquery/dist/jquery.min.js')
