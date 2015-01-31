@@ -6,7 +6,8 @@
   .config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/', {templateUrl:'/views/home/home.html', controller:'HomeCtrl'})
-    //.when('/resume', {templateUrl:'/views/resume/resume.html', controller:'ResumeCtrl'})
+    .when('/cube', {templateUrl:'/views/cube/cube.html', controller:'CubeCtrl'})
+    .when('/sphere', {templateUrl:'/views/sphere/sphere.html', controller:'SphereCtrl'})
     .otherwise({redirectTo:'/'});
 
   }]);
